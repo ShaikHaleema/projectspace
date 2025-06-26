@@ -4,21 +4,23 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "lint": "eslint .",
-  "preview": "vite preview",
-  "start": "vite"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start": "vite"
+  },
   "dependencies": {
+    "@aws-amplify/ui-react": "^6.11.2",
+    "aws-amplify": "^6.15.1",
+    "axios": "^1.6.8",
+    "framer-motion": "^11.3.0",
+    "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.0",
-    "lucide-react": "^0.344.0",
-    "axios": "^1.6.8",
     "react-hook-form": "^7.52.0",
     "react-hot-toast": "^2.4.1",
-    "framer-motion": "^11.3.0",
+    "react-router-dom": "^6.26.0",
     "zustand": "^4.5.4"
   },
   "devDependencies": {
